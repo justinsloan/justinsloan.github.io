@@ -1,0 +1,11 @@
+# Top bar navigation links
+main: 
+  - title: "Headlines"
+    icon : "far fa-newspaper"
+    url  : /categories/#headlines
+  - title: "Journal"
+    icon : "fa-regular fa-pen-to-square"
+    url  : /categories/#journal/
+  - title: "Help File"
+    icon : "far fa-folder-open"
+    url  : /categories/#help-file/

@@ -1,0 +1,121 @@
+## Jekyll Site Configuration
+
+build                : "56" # this is your local build number
+
+# Site settings
+url                  : https://www.justinasaservice.com
+title                : "Justin as a Service"
+masthead_title       : "   " # overrides the website title displayed in the masthead, use " " for no title
+subtitle             : # site tagline that appears below site title in masthead
+logo                 : "/assets/images/logo3.png"
+copyright            : "Justin M. Sloan"
+description          : >- # this means to ignore newlines until the next parameter
+  The life and know-how of an IT services professional. Justin
+  shares real stories, lessons learned, tutorials, tools, and 
+  advice from the field.
+
+fontawesome_kit      : 4d7c1067a9
+
+# Contact settings
+#email               :
+twitter_username     : sloancli
+github_username      : justinsloan
+
+# Build settings
+markdown     : kramdown
+remote_theme : justinasaservice/muted
+repository   : justinasaservice/justinasaservice.github.io
+
+# Outputting
+minimal_mistakes_skin: default
+permalink    : /:categories/:title/
+paginate     : 5 # amount of posts to show
+paginate_path: /page:num/
+timezone     : HST # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Hi! I'm Justin."
+  avatar : "/assets/images/bio-photo-square.jpg"
+  location: Honolulu
+  bio    : "I'm an IT services professional in Honolulu. On this site I share real stories, lessons learned, tutorials, tools, and advice from the field."
+  about  : "/about/"
+  links:
+    - label: "in/justin-sloan"
+      icon : "fab fa-fw fa-linkedin"
+      url  : "https://linkedin.com/in/justin-sloan"
+    - label: "/justinsloan"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/justinsloan"
+    - label: "u/sloancli"
+      icon : "fab fa-fw fa-reddit"
+      url  : "https://reddit.com/u/sloancli"
+    - label: "@sloancli"
+      icon : "fab fa-fw fa-instagram"
+      url  : "https://instagram.com/sloancli"
+    - label: "More"
+      icon : "fas fa-fw fa-link"
+      url  : "http://justinsloan.com"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon : "fab fa-fw fa-linkedin"
+      url  : "https://linkedin.com/in/justin-sloan"
+    - label: "Instagram"
+      icon : "fab fa-fw fa-instagram"
+      url  : "https://instagram.com/sloancli"
+    - label: "Reddit"
+      icon : "fab fa-fw fa-reddit"
+      url  : "https://reddit.com/u/sloancli"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      show_date     : true
+      read_time     : true
+      comments      : true
+      share         : false
+      related       : true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
