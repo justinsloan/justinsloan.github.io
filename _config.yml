@@ -7,7 +7,7 @@ url                  : https://www.justinsloan.com
 title                : "Justin Sloan"
 masthead_title       : "   " # overrides the website title displayed in the masthead, use " " for no title
 subtitle             : # site tagline that appears below site title in masthead
-logo                 : "/assets/images/logo3.png"
+logo                 : "/assets/images/first_name.png"
 copyright            : "Justin M. Sloan"
 description          : >- # this means to ignore newlines until the next parameter
   The life and know-how of an IT services professional. Justin
