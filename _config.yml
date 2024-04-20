@@ -3,8 +3,8 @@
 build                : "56" # this is your local build number
 
 # Site settings
-url                  : https://www.justinasaservice.com
-title                : "Justin as a Service"
+url                  : https://www.justinsloan.com
+title                : "Justin Sloan"
 masthead_title       : "   " # overrides the website title displayed in the masthead, use " " for no title
 subtitle             : # site tagline that appears below site title in masthead
 logo                 : "/assets/images/logo3.png"
