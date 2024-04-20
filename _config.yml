@@ -76,9 +76,6 @@ author:
     - label: "@sloancli"
       icon : "fab fa-fw fa-instagram"
       url  : "https://instagram.com/sloancli"
-    - label: "More"
-      icon : "fas fa-fw fa-link"
-      url  : "http://justinsloan.com"
 
 footer:
   links:
