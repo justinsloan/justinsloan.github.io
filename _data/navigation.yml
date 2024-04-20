@@ -1,11 +1,14 @@
 # Top bar navigation links
 main: 
-  - title: "Headlines"
-    icon : "far fa-newspaper"
+  - title: "Learn"
+    icon : "fa-solid fa-graduation-cap"
     url  : /categories/#headlines
-  - title: "Journal"
-    icon : "fa-regular fa-pen-to-square"
+  - title: "Docs"
+    icon : "fa-solid fa-layer-group"
     url  : /categories/#journal/
-  - title: "Help File"
-    icon : "far fa-folder-open"
+  - title: ""
+    icon : "fa-regular fa-comment-dots"
+    url  : /categories/#help-file/
+  - title: "Hire Me!"
+    icon : 
     url  : /categories/#help-file/
