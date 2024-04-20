@@ -23,8 +23,8 @@ github_username      : justinsloan
 
 # Build settings
 markdown     : kramdown
-remote_theme : justinasaservice/muted
-repository   : justinasaservice/justinasaservice.github.io
+remote_theme : justinsloan/less-muted
+repository   : justinsloan/justinsloan.github.io
 
 # Outputting
 minimal_mistakes_skin: default
