@@ -1,6 +1,6 @@
 ## Jekyll Site Configuration
 
-build                : "56" # this is your local build number
+build                : "57" # this is your local build number
 
 # Site settings
 url                  : https://www.justinsloan.com
@@ -18,7 +18,7 @@ fontawesome_kit      : 4d7c1067a9
 
 # Contact settings
 #email               :
-twitter_username     : sloancli
+#twitter_username     : sloancli
 github_username      : justinsloan
 
 # Build settings
@@ -58,10 +58,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hi! I'm Justin."
+  name   : "Hi! I'm Justin..."
   avatar : "/assets/images/bio-photo-square.jpg"
   location: Honolulu
-  bio    : "I'm an IT services professional in Honolulu. On this site I share real stories, lessons learned, tutorials, tools, and advice from the field."
+  bio    : "...an IT services professional in Honolulu. On this site I share real stories, lessons learned, tutorials, tools, and advice from the field."
   about  : "/about/"
   links:
     - label: "in/justin-sloan"

@@ -1,7 +1,7 @@
 ---
 title: How to generate strong passwords with quantum random data
 categories:
-  - Help File
+  - Docs
 tags:
   - Linux
   - Python

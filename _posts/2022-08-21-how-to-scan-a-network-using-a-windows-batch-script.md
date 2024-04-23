@@ -1,7 +1,7 @@
 ---
 title: How to scan a network using a Windows batch script (or Bash script)
 categories:
-  - Help File
+  - Docs
 tags:
   - Windows
   - Batch

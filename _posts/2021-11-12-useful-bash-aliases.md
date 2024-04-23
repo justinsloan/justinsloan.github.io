@@ -1,7 +1,7 @@
 ---
 title: 10 Useful BASH Aliases
 categories:
-  - Help File
+  - Docs
 tags:
   - Linux
   - Bash

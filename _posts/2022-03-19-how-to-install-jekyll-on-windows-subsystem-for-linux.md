@@ -1,7 +1,7 @@
 ---
 title: How to Install Jekyll on Windows Subsystem for Linux
 categories:
-  - Help File
+  - Docs
 tags:
   - Linux
   - Windows
