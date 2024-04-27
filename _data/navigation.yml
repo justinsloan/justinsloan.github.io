@@ -11,4 +11,4 @@ main:
     url  : /categories/#journal/
   - title: 
     icon : "fa-solid fa-address-card"
-    url  : /_pages/hire-me.html
+    url  : /hire-me.html
