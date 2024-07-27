@@ -15,13 +15,13 @@ However, by wrapping the VB script in a PowerShell command, you can suppress the
 
 The syntax for running the script and capturing the output is pretty straightforward:
 
-```pwsh
+```sh
     Invoke-Command { (cscript /Nologo "C:\Windows\System32\slmgr.vbs" /xpr) -join '' }
 ```
 
 A positive response will look something like this:
 
-```pwsh
+```sh
     Windows(R), Professional edition:    The machine is permanently activated.
 ```
 
@@ -31,7 +31,7 @@ Even better, we can run the command on a remote machine or even an entire enterp
 
 To run the command on a remote machine, simply add `-ComputerName <remote-machine>` to the end of the command, where `<remote-machine>` is the Windows Device Name:
 
-```pwsh
+```sh
     Invoke-Command { (cscript /Nologo "C:\Windows\System32\slmgr.vbs" /xpr) -join '' } -ComputerName <remote-machine>
 ```
 
