@@ -4,7 +4,7 @@ main:
     icon : "fa-solid fa-terminal"
     url  : /categories/#docs/
   - title: Journal
-    icon : "fa-solid fa-mug-saucer"
+    icon : "fa-solid fa-mug-hot"
     url  : /categories/#journal/
   - title: Hire me!
     icon : "fa-solid fa-address-card"
