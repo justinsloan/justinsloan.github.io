@@ -1,5 +1,5 @@
 ---
-title: How is orchestration different from synchronization?
+title: FAQ: How is orchestration different from synchronization?
 categories:
   - Journal
 tags:
