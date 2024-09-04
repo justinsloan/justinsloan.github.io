@@ -1,14 +1,11 @@
 # Top bar navigation links
 main: 
-  - title: "Learn"
-    icon : "fa-solid fa-graduation-cap"
-    url  : /categories/#learn
   - title: "Docs"
-    icon : "fa-solid fa-layer-group"
+    icon : "fa-solid fa-terminal"
     url  : /categories/#docs/
-  - title: 
-    icon : "fa-regular fa-comment-dots"
+  - title: Journal
+    icon : "fa-regular fa-mug-saucer"
     url  : /categories/#journal/
-  - title: 
+  - title: Hire me!
     icon : "fa-solid fa-address-card"
     url  : /hire-me.html
