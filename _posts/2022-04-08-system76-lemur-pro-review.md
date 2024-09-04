@@ -4,6 +4,7 @@ categories:
   - Journal
 tags:
   - Linux
+  - Review
 ---
 
 System76 is an American computer maker known for their first-class Linux support and repairable, high-performance machines. While their laptop line up is composed of chassis built by the Taiwanese manufacturer Clevo, they are far from a white-label reseller of cheap computers. System76 produces their own firmware, builds custom drivers, and ships their own operating system, all with the goal of ensuring Linux compatibility with the hardware they sell. In addition, they stand behind their machines with up to a three-year warranty and lifetime support.
