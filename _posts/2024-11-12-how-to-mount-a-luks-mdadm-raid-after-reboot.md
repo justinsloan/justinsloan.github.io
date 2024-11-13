@@ -1,5 +1,5 @@
 ---
-title: How to scan a network using a Windows batch script (or Bash script)
+title: How to mount a LUKS RAID volume after a server reboot
 categories:
   - Docs
 tags:
