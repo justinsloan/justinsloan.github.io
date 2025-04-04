@@ -4,8 +4,10 @@ author_profile: true
 permalink: /hire-me.html
 ---
 
-# More info coming soon...
+I'm available for moonlighting on small projects or solution consulting. My areas of specialty include the following:
 
-## Business Rate: $125/hour (min. 2 hrs.)
-
-## Home User Rate: $40/hour (min. 1 hr.)
+* Microsoft 365 migration/management
+* Open-source in the enterprise
+* pfSense security architecture
+* System administration/health check
+* Network design
