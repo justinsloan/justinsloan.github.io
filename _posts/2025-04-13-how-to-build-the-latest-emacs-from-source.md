@@ -16,7 +16,7 @@ Install the necessary dependencies:
 
 ```sh
     sudo apt update
-    sudo apt install build-essential texinfo libx11-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libgtk3.0-dev libncurses-dev automake autoconf gnutls-bin libgnutls30 libgccjit-12-dev
+    sudo apt install build-essential texinfo libx11-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libgtk3.0-dev libncurses-dev automake autoconf libgnutls28-dev libgccjit-12-dev
 ```
 
 We grabbed version 12 of GCC with the dependencies, so we need to tell our system to use it:
@@ -25,10 +25,10 @@ We grabbed version 12 of GCC with the dependencies, so we need to tell our syste
     export CC="gcc-12"
 ```
 
-Create the configuration file (your `PWD` should still be the uncompressed Emacs source directory):
+Create the configuration file (your `pwd` should still be the uncompressed Emacs source directory):
 
 ```sh
-    ./configure --with-gnutls=ifavailable
+    ./configure
 ```
 
 Check for errors in the configuration output to see if there are any missing dependencies. You generally only need to pay attention to the red "error" notices. The yellow "warning" notices can be safely ignored.
