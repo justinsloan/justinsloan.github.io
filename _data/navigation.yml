@@ -7,5 +7,5 @@ main:
     icon : "fa-solid fa-mug-hot"
     url  : /categories/#journal/
   - title: Blotter
-    icon : "fa-solid fa-address-card"
+    icon : "fa-regular fa-rectangle-list"
     url  : /categories/#blotter
