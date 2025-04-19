@@ -61,7 +61,7 @@ author:
   name   : "Hi! I'm Justin..."
   avatar : "/assets/images/bio-photo-square.jpg"
   location: Honolulu
-  bio    : "...an IT services professional in Honolulu. This blog is my personal KB of ideas, tools, and methods for maintaining tailored operating environments."
+  bio    : "...an IT services professional in Honolulu. This blog is my personal KB of ideas, tools, and methods for maintaining tailored operating environments, and the news that impacts computing freedom."
   about  : "/about/"
   links:
     - label: "in/justin-sloan"

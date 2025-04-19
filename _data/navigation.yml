@@ -6,6 +6,6 @@ main:
   - title: Journal
     icon : "fa-solid fa-mug-hot"
     url  : /categories/#journal/
-  - title: Hire me!
+  - title: Blotter
     icon : "fa-solid fa-address-card"
-    url  : /hire-me.html
+    url  : /categories/#blotter
