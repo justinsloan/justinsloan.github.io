@@ -16,7 +16,7 @@ Install the necessary dependencies:
 
 ```sh
 sudo apt update
-sudo apt install build-essential texinfo libx11-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libgtk-3-dev libncurses-dev automake autoconf libgnutls28-dev libgccjit-12-dev libxml2-dev libxml2-utils libtool libtool-bin
+sudo apt install build-essential texinfo libx11-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libtiff-dev libgtk-3-dev libncurses-dev automake autoconf libgnutls28-dev libgccjit-12-dev libxml2-dev libxml2-utils libtool libtool-bin cmake
 ```
 
 We grabbed version 12 of GCC with the dependencies, so we need to tell our system to use it:
